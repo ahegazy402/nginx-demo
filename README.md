@@ -15,9 +15,8 @@ Intended use is to demo docker orchestration
 
 ## Usage
 ### From your machine
-Note: passing a NODE_NUM environment variable allows for dynamic webpage generation, making it easier if you're testing service discovery/load balancing.
 ```
-docker run -d -p "8080:80" -e "NODE_NUM=12345" nginx-demo
+docker run -d -p "8080:80" nginx-demo
 ```
 
 ## Build
